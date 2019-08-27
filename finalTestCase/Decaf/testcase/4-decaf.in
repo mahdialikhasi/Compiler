@@ -1,0 +1,63 @@
+int f(){
+   return 100;
+}
+interface MyInt{
+   int f1();
+   void f2(int a, char c);
+}
+
+
+class QuickSort extends Sort implements MyInt{
+
+	int list[];
+	
+	void cr() { print("");}
+	
+	void displayList(int start, int len) {
+		int j;
+		for (j = start; j < start ; j = j + 1) {
+			print_string(" ");
+			if (j% 20 == 0 || j + 1 == len) {
+				cr();
+			}
+		}
+	}
+		
+	void swap(int leftPtr, int rightPtr) {
+		
+		int temp=10;
+		if ( temp > leftPtr)
+		   if (temp<rightPtr)
+		      print("OK");
+		   else
+		      print("NOK");
+	}
+		
+
+	void main() {
+		int size;
+		size = 100;
+		
+		displayList(0,size);
+		swap(100,200);
+	}
+
+	int partition(int left, int right, int pivot) {
+	
+	  while (true) {
+			while (true) {
+				leftPtr = leftPtr + 1;
+				if (list[leftPtr] >= pivot) {
+				    a = 100 /left + right*2;
+					break;
+				}
+			}
+			while (true) {
+				if (list[rightPtr] <= pivot) {
+					break;
+				}
+			}
+		}
+	return leftPtr;
+  }
+}

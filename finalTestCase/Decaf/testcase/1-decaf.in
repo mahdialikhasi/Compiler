@@ -1,0 +1,5 @@
+class QuickSort{
+	a=20;
+	if(a>100)
+	   print("OK");
+}

@@ -1,0 +1,55 @@
+class QuickSort extends Sort implements Sorting{
+
+	int list[];
+	
+	void cr() { print_string("\n"); }
+	
+	void displayList(int start, int len) {
+		int j;
+		print_string("List:\n");
+		for (j = start; j < start + len; j = j + 1) {
+			print_int(list[j]);
+			print_string(" ");
+			if ((j - start + 1) % 20 == 0 || j + 1 == start + len) {
+				cr();
+			}
+		}
+	}
+		
+	void swap(int leftPtr, int rightPtr) {
+		
+		int temp=10;
+		if ( temp > leftPtr)
+		   if (temp<rightPtr)
+		      print("OK");
+		   else
+		      print("NOK");
+	}
+		
+
+	void main() {
+		int size;
+		size = 100;
+		
+		displayList(0,size);
+		swap(100,200);
+	}
+
+	int partition(int left, int right, int pivot) {
+	
+	  while (true) {
+			while (true) {
+				leftPtr = leftPtr + 1;
+				if (list[leftPtr] >= pivot) {
+					break;
+				}
+			}
+			while (true) {
+				if (list[rightPtr] <= pivot) {
+					break;
+				}
+			}
+		}
+	return leftPtr;
+  }
+}
