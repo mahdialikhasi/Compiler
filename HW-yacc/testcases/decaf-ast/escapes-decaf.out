@@ -1,0 +1,2 @@
+Program(ExternFunction(print_string,VoidType,VarDef(StringType)),Class(Print,None,Method(main,VoidType,None,MethodBlock(None,MethodCall(print_string,StringConstant("	
+\"))))))

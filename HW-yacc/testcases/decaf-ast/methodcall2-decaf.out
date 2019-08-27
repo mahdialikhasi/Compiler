@@ -1,0 +1,1 @@
+Program(None,Class(C,None,Method(f,VoidType,None,MethodBlock(None,MethodCall(g,Number(1),Number(2))))))

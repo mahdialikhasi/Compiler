@@ -1,0 +1,2 @@
+Program(None,Class(QuickSort,None,Method(main,VoidType,None,MethodBlock(VarDef(size,IntType),AssignVar(size,Number(100)),MethodCall(initList,VariableExpr(size)),MethodCall(displayList,Number(0),VariableExpr(size)),MethodCall(quickSort,Number(0),BinaryExpr(Minus,VariableExpr(size),Number(1))),MethodCall(print_string,StringConstant("After sorting:
+")),MethodCall(displayList,Number(0),VariableExpr(size))))))
